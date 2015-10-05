@@ -3,7 +3,7 @@ var React = require('react');
 module.exports = React.createClass({
 	render: function() {
 		return (
-			<div className="nav-wrapper">
+			<div className="nav-wrapper orange darken-3">
 				<a href="#" className="brand-logo left">Login Example</a>
 				<ul id="nav-mobile" className="right">
 					<li><a href="#">Home</a></li>

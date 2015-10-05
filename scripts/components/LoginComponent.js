@@ -18,7 +18,7 @@ module.exports = React.createClass({
 						<h1>Login</h1>
 						{errorElement}
 						<div className="row">
-							<div className="input-field col s12">
+							<div className="input-field col s12 ">
 								<input type="text" ref="email" className="validate" id="email_address" />
 								<label htmlFor="first_name">Email Address</label>
 							</div>
@@ -30,7 +30,7 @@ module.exports = React.createClass({
 							</div>
 						</div>
 						<div className="row">
-							<button className="waves-effect waves-light btn">Log In</button>
+							<button className="waves-effect waves-light btn orange darken-2">Log In</button>
 						</div>
 					</form>
 				</div>

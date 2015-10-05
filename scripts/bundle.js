@@ -32619,7 +32619,7 @@ module.exports = React.createClass({
 						{ className: "row" },
 						React.createElement(
 							"div",
-							{ className: "input-field col s12" },
+							{ className: "input-field col s12 " },
 							React.createElement("input", { type: "text", ref: "email", className: "validate", id: "email_address" }),
 							React.createElement(
 								"label",
@@ -32647,7 +32647,7 @@ module.exports = React.createClass({
 						{ className: "row" },
 						React.createElement(
 							"button",
-							{ className: "waves-effect waves-light btn" },
+							{ className: "waves-effect waves-light btn orange darken-2" },
 							"Log In"
 						)
 					)
@@ -32686,7 +32686,7 @@ module.exports = React.createClass({
 	render: function render() {
 		return React.createElement(
 			"div",
-			{ className: "nav-wrapper" },
+			{ className: "nav-wrapper orange darken-3" },
 			React.createElement(
 				"a",
 				{ href: "#", className: "brand-logo left" },
@@ -32804,7 +32804,7 @@ module.exports = React.createClass({
 						{ className: "row" },
 						React.createElement(
 							"button",
-							{ className: "waves-effect waves-light btn" },
+							{ className: "waves-effect waves-light btn orange darken-2" },
 							"Register"
 						)
 					)
